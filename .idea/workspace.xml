@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="134" column="189" selection-start-line="134" selection-start-column="189" selection-end-line="134" selection-end-column="189" />
+            <state relative-caret-position="477">
+              <caret line="143" column="38" lean-forward="true" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -79,15 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="37" column="17" selection-start-line="33" selection-start-column="12" selection-end-line="37" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -139,10 +130,10 @@
         <option value="$PROJECT_DIR$/pvapp_site/pvapp/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pvapp_site/pvapp/static/css/pvapp.css" />
-        <option value="$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html" />
         <option value="$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/base.html" />
         <option value="$PROJECT_DIR$/pvapp_site/pvapp_site/urls.py" />
         <option value="$PROJECT_DIR$/pvapp_site/pvapp_site/settings.py" />
+        <option value="$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html" />
       </list>
     </option>
   </component>
@@ -152,7 +143,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="31" />
     <option name="width" value="960" />
     <option name="height" value="1049" />
@@ -270,7 +261,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="960" height="1049" extended-state="4" />
+    <frame x="0" y="31" width="1920" height="1049" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -280,7 +271,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25609756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124060154" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -500,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="134" column="189" selection-start-line="134" selection-start-column="189" selection-end-line="134" selection-end-column="189" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/athlete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -548,6 +529,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="143" column="38" lean-forward="true" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
