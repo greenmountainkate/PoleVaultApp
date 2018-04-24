@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="455">
-              <caret line="142" column="79" selection-start-line="142" selection-start-column="79" selection-end-line="142" selection-end-column="79" />
+              <caret line="142" column="62" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -535,7 +535,7 @@
     <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp/templates/pvapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="142" column="79" selection-start-line="142" selection-start-column="79" selection-end-line="142" selection-end-column="79" />
+          <caret line="142" column="62" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
