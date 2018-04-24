@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="599">
+              <caret line="125" column="45" selection-start-line="125" selection-start-column="45" selection-end-line="125" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -224,35 +224,13 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="591project" type="cbb8eebc:String" user="591project" />
-              <item name="django" type="cbb8eebc:String" user="django" />
+              <item name="pvapp_site" type="cbb8eebc:String" user="pvapp_site" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="591project" type="cbb8eebc:String" user="591project" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="591project" type="cbb8eebc:String" user="591project" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="contrib" type="cbb8eebc:String" user="contrib" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="591project" type="cbb8eebc:String" user="591project" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="contrib" type="cbb8eebc:String" user="contrib" />
-              <item name="admin" type="cbb8eebc:String" user="admin" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="591project" type="cbb8eebc:String" user="591project" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="django" type="cbb8eebc:String" user="django" />
-              <item name="urls" type="cbb8eebc:String" user="urls" />
+              <item name="pvapp_site" type="cbb8eebc:String" user="pvapp_site" />
+              <item name="pvapp_site" type="cbb8eebc:String" user="pvapp_site" />
             </path>
           </expand>
           <select />
@@ -293,6 +271,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="31" width="960" height="1049" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -555,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -569,6 +541,13 @@
           <folding>
             <element signature="e#634#666#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pvapp_site/pvapp_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="125" column="45" selection-start-line="125" selection-start-column="45" selection-end-line="125" selection-end-column="45" />
         </state>
       </provider>
     </entry>
