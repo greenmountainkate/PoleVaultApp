@@ -43,7 +43,7 @@
 
 						<div class="graph">
 							<span><img class="metric metric1" title="Metric 1 Chart" src="{{STATIC_URL}}static/images/speedChart.png"></span>
-							<h3><span class="icon far fa-trophy"></span>Speed</h3>
+							<h3><span class="icon far fa-tachometer"></span>Speed</h3>
 							<p>Distance vs Time</p>
 						</div>
 
@@ -55,8 +55,8 @@
 
 						<div class="graph">
 							<span><img class="metric metric3" title="Metric 3 Chart" src="{{STATIC_URL}}static/images/compChart.png"></span>
-							<h3><span class="icon far fa-tachometer"></span>Average Speed</h3>
-							<p>!!TEXT HERE!!</TEXT></p>
+							<h3><span class="icon far fa-trophy"></span>Jump Comparison</h3>
+							<p>Review Performance</TEXT></p>
 						</div>
 
 					</div>
@@ -77,7 +77,7 @@
 								<img src="{{STATIC_URL}}static/images/shoeScale.jpg" alt="Pic 01" />
 							</div>
 							<header>
-								<h3>Athletes<br /></h3>
+								<h3 class="select-header">Athletes<br /></h3>
 							</header>
 							<h5>
 								{% for athlete in athletes %}
@@ -85,7 +85,7 @@
             					{% endfor %}
            					</h5>
 							<footer>
-								<a href="#" class="button">Select Profile</a>
+								<a href="#" class="button">Add Athlete Profile</a>
 							</footer>
 						</article>
 						<article>
@@ -93,11 +93,11 @@
 								<img src="{{STATIC_URL}}static/images/jumpScaled.jpg" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Previous Sessions</h3>
+								<h3 class="select-header">Previous Sessions</h3>
 							</header>
-							<h5>Date/Time 1<br />Date/Time 2<br /> Date/Time 3<br /> Date/Time 4</h5>
+							<h5><a href="#">June 28, 2017</a> <br /><a href="#">September 16, 2017</a><br /><a href="#">October 14, 2017</a><br /> <a href="#">January 3, 2018</a><br /> <a href="#">February 24, 2018</a></h5>
 							<footer>
-								<a href="#" class="button">Select Session</a>
+								<a href="#" class="button">Start New Session</a>
 							</footer>
 						</article>
 					</div>
@@ -132,7 +132,7 @@
 				-->
 
 					<div class="copyright">
-						&copy; CSC591-791 Group 1: Athishay Kiran, Omar Chedid, Anirudh Ganji, Katherine Brown Images: <a href="https://unsplash.com">Unsplash</a>.
+						&copy; CSC591-791 Group 1: Athishay Kiran, Omar Chedid, Anirudh Ganji, Katherine Brown Images: <a href="https://unsplash.com">Unsplash</a>, <a href="#">Templated</a>.
 					</div>
 
 				</div>
