@@ -1,0 +1,41 @@
+{% extends 'pvapp/base.html' %}
+    {% block content %}
+        <div class="system_status">
+            <h3>System Status: <i class="fas fa-lightbulb"></i></h3>
+        </div>
+        <div class="jump_visuals">
+            <h2>Jump Metrics:</h2>
+            <div class="row">
+                      <img class="metric metric1" title="Metric 1 Chart" src="https://datavizcatalogue.com/methods/images/top_images/line_graph.png" alt="Metric Chart 1: Time vs Distance">
+                      <img class="metric metric2" title="Metric 2 Chart" src="https://blogs.sas.com/content/graphicallyspeaking/files/2016/10/ScatterPlotGroup-300x180.png" alt="Metric Chart 2: Steps vs Time vs Distance">
+                      <img class="metric metric3" title="Metric 3 Chart" src="http://www.excel-easy.com/examples/images/scatter-chart/scatter-chart-with-straight-lines.png" alt="Metric Chart 3: Speed">
+            </div>
+        </div>
+
+        <div class="athlete_selector box">
+            <p>Save Jump Data</p>
+            <form title="Choose Athlete:" method="POST">{% csrf_token %}
+                <label id="ath_select_label" for="athlete_selection">Select Athlete:</label>
+
+                <div class="custom-select" style="width:200px">
+                    <select id="athlete_selection" name="athlete_selection">
+                        {% for athlete in athletes %}
+                        <option value="{% url 'athlete' pk=athlete.id %}">{{ athlete.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <button class="btn btn-default" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="athlete_list">
+            <h2>Athlete List:</h2>
+            <ul>
+            {% for athlete in athletes %}
+                    <li><a href="{% url 'athlete' pk=athlete.id %}">{{ athlete.name }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+    {% endblock %}
+

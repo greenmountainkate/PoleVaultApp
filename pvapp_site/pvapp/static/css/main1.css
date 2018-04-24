@@ -1,0 +1,23 @@
+body {
+    background-color:#C7D8DB;
+    color: #273043;
+}
+
+img{
+    width: 600px;
+    float:left;
+    margin: 1.66%;
+}
+.page-header {
+
+    background-color: #234560;
+    margin: 0;
+}
+.page-title {
+    color: #fefcfb;
+}
+
+.fa-lightbulb {
+    color: #f5dd5d;
+}
+
