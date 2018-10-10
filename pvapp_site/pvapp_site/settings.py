@@ -26,7 +26,8 @@ SECRET_KEY = 'c1m93rxmt*m(x_$rb&t29f9*-vuq=te(h@se4#-fk48tw!0)#)'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'kmbrown.pythonanywhere.com'
+    #'kmbrown.pythonanywhere.com'
+    #'localhost.localdomain'
 ]
 
 
@@ -109,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
@@ -127,7 +128,7 @@ STATIC_URL = '/static/'
 import os
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 STATICFILES_DIRS = (
-  os.path.join(SITE_ROOT, 'static/'),
+  os.path.join(SITE_ROOT,'..', 'static/'),
 )
 
 

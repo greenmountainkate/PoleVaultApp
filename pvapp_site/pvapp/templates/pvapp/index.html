@@ -24,9 +24,9 @@
 				<div class="inner">
 					<a href="index.html" class="logo"><strong>System Status</strong> <i class="fas fa-lightbulb"></i></a>
 					<nav id="nav">
-						<a href="index.html">Monitor</a>
-						<a href="generic.html">Athletes</a>
-						<a href="elements.html">Jump History</a>
+						<a href="{% url 'calibrate' %}">Calibrate</a>
+						<a href="{% url 'athletes' %}">Athletes</a>
+						<a href="{% url 'sessions' %}">Session History</a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
@@ -42,19 +42,19 @@
 					<div class="box">
 
 						<div class="graph">
-							<span><img class="metric metric1" title="Metric 1 Chart" src="{{STATIC_URL}}static/images/speedChart.png"></span>
+							<span><img class="metric metric1" title="Metric 1 Chart" src="{{STATIC_URL}}static/images/position_data.png"></span>
 							<h3><span class="icon far fa-tachometer"></span>Speed</h3>
 							<p>Distance vs Time</p>
 						</div>
 
 						<div class="graph">
-							<span><img class="metric metric2" title="Metric 2 Chart" src="{{STATIC_URL}}static/images/barGraph.png"></span>
+							<span><img class="metric metric2" title="Metric 2 Chart" src="{{STATIC_URL}}static/images/stride_data.png"></span>
 							<h3><span class="icon far fa-rocket"></span>Strides</h3>
 							<p>Average Stride Length</p>
 						</div>
 
 						<div class="graph">
-							<span><img class="metric metric3" title="Metric 3 Chart" src="{{STATIC_URL}}static/images/compChart.png"></span>
+							<span><img class="metric metric3" title="Metric 3 Chart" src="{{STATIC_URL}}static/images/speed_data.png"></span>
 							<h3><span class="icon far fa-trophy"></span>Jump Comparison</h3>
 							<p>Review Performance</TEXT></p>
 						</div>
@@ -95,7 +95,11 @@
 							<header>
 								<h3 class="select-header">Previous Sessions</h3>
 							</header>
-							<h5><a href="#">June 28, 2017</a> <br /><a href="#">September 16, 2017</a><br /><a href="#">October 14, 2017</a><br /> <a href="#">January 3, 2018</a><br /> <a href="#">February 24, 2018</a></h5>
+								<h5>
+									{% for session in sessions %}
+										<a href="{% url 'session' pk=session.id %}">{{ session.date }}</a><br/>
+									{% endfor %}
+								</h5>
 							<footer>
 								<a href="#" class="button">Start New Session</a>
 							</footer>

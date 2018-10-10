@@ -1,0 +1,30 @@
+{% extends 'pvapp/base.html' %}
+
+{% block content %}
+    <div class="session">
+        <h2>Review Previous Sessions</h2>
+        <h5>
+			{% for session in sessions %}
+		    	<a href="{% url 'session' pk=session.id %}">{{ session.date }}</a><br/>
+            {% endfor %}
+        </h5>
+        <div id="new-session">
+            <h2>New Session</h2>
+                <div class="athletes">
+                <h4>Select Athletes:</h4>
+                <form>
+
+                        {% for athlete in athletes %}
+                        <input type="checkbox" ><label>{{ athlete.name }}</label></input><br>
+                        {% endfor %}
+
+                        <input type="submit" value="Add to New Session"/>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+<!-- Make this a selectable form to multiple add athletes to a session -->
